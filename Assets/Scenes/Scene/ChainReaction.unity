@@ -936,6 +936,7 @@ MonoBehaviour:
   dominoeEnd: {fileID: 1134886235}
   dominoestart: {fileID: 1533964114}
   NumCenterDom: 8
+  force: 10
 --- !u!1 &707933818
 GameObject:
   m_ObjectHideFlags: 0
@@ -1634,7 +1635,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 91f8f5e9b6dbb6d4ca3756813f23d603, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -16.1
+      value: -6.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 91f8f5e9b6dbb6d4ca3756813f23d603, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2544,7 +2545,7 @@ SphereCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1811128021}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 4e015a464ed5d07459f1d05008a2b923, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2

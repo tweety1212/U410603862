@@ -16,4 +16,13 @@ public class SetDominoes : MonoBehaviour {
 			newDom.transform.rotation = dominoestart.transform.rotation;
 		}
 	}
+
+    public float force = 4.0f;
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            dominoestart.GetComponent<Rigidbody>().AddForce(force, 0, 0, ForceMode.Impulse);
+        }
+    }
 }
