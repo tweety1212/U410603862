@@ -572,8 +572,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8e8c85afbbbac040a30ed6535dcd8c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  FinishText: {fileID: 1046098884}
 --- !u!1 &472481725
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,11 +929,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 670783439}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d52b9cd48e1dcdd4d93e29bc4a04f5c4, type: 3}
+  m_Script: {fileID: 11500000, guid: b09c48d20aa2a004abe9b61fca003fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dominoeStart: {fileID: 0}
-  force: 4
+  dominoePrefab: {fileID: 100000, guid: 91f8f5e9b6dbb6d4ca3756813f23d603, type: 2}
+  dominoeEnd: {fileID: 1134886235}
+  dominoestart: {fileID: 1533964114}
+  NumCenterDom: 8
 --- !u!1 &707933818
 GameObject:
   m_ObjectHideFlags: 0
@@ -1671,6 +1671,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91f8f5e9b6dbb6d4ca3756813f23d603, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1134886235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 91f8f5e9b6dbb6d4ca3756813f23d603,
+    type: 2}
+  m_PrefabInternal: {fileID: 1923097633}
 --- !u!1 &1166463414
 GameObject:
   m_ObjectHideFlags: 0
@@ -2107,6 +2112,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1533964114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 91f8f5e9b6dbb6d4ca3756813f23d603,
+    type: 2}
+  m_PrefabInternal: {fileID: 1109472579}
 --- !u!1 &1602825236
 GameObject:
   m_ObjectHideFlags: 0
@@ -2459,7 +2469,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aedd2e8d3274d846b9ad293de430e33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
 --- !u!1 &1811128021
 GameObject:
   m_ObjectHideFlags: 0
